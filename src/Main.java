@@ -29,7 +29,7 @@ public class Main {
             } while (attempts > 0 && !checkWordCompleted());
 
             if (attempts == 0) {
-                System.out.println("Tyvärr, du dog!");
+                System.out.println("Tyvärr, du dog! :(");
                 System.out.println("Det rätta ordet var " + word);
             } else {
                 System.out.println("Grattis! Du listade ut ordet!");

@@ -74,7 +74,6 @@ public class Main {
     private static void printArrayValues() {
         for (int i = 0; i < underscores.length; i++) {
             System.out.print(underscores[i]);
-            //some comment
         }
         System.out.println();
     }
